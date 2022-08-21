@@ -92,14 +92,22 @@ else:
 
 cpp_library += '.' + str(bits)
 
+def add_sources(sources, dir):
+    for f in os.listdir(dir):
+        if f.endswith(".cpp"):
+            sources.append(dir + "/" + f)
+
 # make sure our binding library is properly includes
 env.Append(CPPPATH=['.', godot_headers_path, cpp_bindings_path + 'include/', cpp_bindings_path + 'include/core/', cpp_bindings_path + 'include/gen/'])
 env.Append(LIBPATH=[cpp_bindings_path + 'bin/'])
 env.Append(LIBS=[cpp_library])
 
 # tweak this if you want to use different folders, or more folders, to store your source code in.
-env.Append(CPPPATH=['src/'])
-sources = Glob('src/*.cpp')
+env.Append(CPPPATH=['src/','src/character/'])
+# add all .cpp files in give folder
+sources = []
+add_sources(sources, "src")
+add_sources(sources, "src/character")
 
 library = env.SharedLibrary(target=env['target_path'] + env['target_name'] , source=sources)
 
