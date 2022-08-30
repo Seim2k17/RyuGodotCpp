@@ -1,0 +1,113 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://assets/characters/ichi/animations/sheet_ichi_run.png" type="Texture" id=2]
+[ext_resource path="res://assets/characters/ichi/animations/sheet_ichi_fall_low.png" type="Texture" id=3]
+[ext_resource path="res://assets/characters/ichi/animations/sheet_ichi_jumpwide.png" type="Texture" id=4]
+[ext_resource path="res://assets/characters/ichi/animations/climbing/hangableObjects/A_Main_Hangable_climbup.png" type="Texture" id=5]
+[ext_resource path="res://assets/characters/ichi/animations/climbing/ladder/A_Main_ClimbOut_Ladder.png" type="Texture" id=6]
+[ext_resource path="res://assets/characters/ichi/animations/climbing/ladder/A_Main_ClimbUp_Ladder.png" type="Texture" id=7]
+[ext_resource path="res://assets/characters/ichi/animations/jump/jumpUp/A_MainChar_JumpUp_Atlas.png" type="Texture" id=8]
+[ext_resource path="res://assets/characters/ichi/animations/climbing/hangableObjects/A_Main_Hangable_swing_from_jump.png" type="Texture" id=9]
+[ext_resource path="res://assets/characters/ichi/animations/combat/sword/ichi_katana_stand_walk.png" type="Texture" id=11]
+
+[node name="Spritesheets" type="Node2D"]
+
+[node name="Sprite_run" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+flip_h = true
+hframes = 3
+vframes = 3
+
+[node name="Sprite_fall_low" type="Sprite" parent="."]
+visible = false
+texture = ExtResource( 3 )
+hframes = 8
+vframes = 3
+frame = 4
+
+[node name="Sprite_jump_r" type="Sprite" parent="."]
+visible = false
+texture = ExtResource( 4 )
+hframes = 5
+vframes = 3
+
+[node name="Sprite_jump_l" type="Sprite" parent="."]
+visible = false
+texture = ExtResource( 4 )
+flip_h = true
+hframes = 5
+vframes = 3
+
+[node name="Sprite_climbledge_l" type="Sprite" parent="."]
+visible = false
+texture = ExtResource( 5 )
+flip_h = true
+hframes = 5
+vframes = 4
+
+[node name="Sprite_climbledge_r" type="Sprite" parent="."]
+visible = false
+texture = ExtResource( 5 )
+hframes = 5
+vframes = 4
+
+[node name="Sprite_climb_ladder_out_l" type="Sprite" parent="."]
+visible = false
+position = Vector2( -17, -27 )
+texture = ExtResource( 6 )
+flip_h = true
+hframes = 4
+vframes = 4
+
+[node name="Sprite_climb_ladder_out_r" type="Sprite" parent="."]
+visible = false
+texture = ExtResource( 6 )
+hframes = 4
+vframes = 4
+
+[node name="Sprite_climb_ladder_in_l" type="Sprite" parent="."]
+visible = false
+texture = ExtResource( 6 )
+flip_h = true
+hframes = 4
+vframes = 4
+
+[node name="Sprite_climb_ladder_in_r" type="Sprite" parent="."]
+visible = false
+texture = ExtResource( 6 )
+flip_h = true
+hframes = 4
+vframes = 4
+
+[node name="Sprite_climb_ladder" type="Sprite" parent="."]
+visible = false
+texture = ExtResource( 7 )
+hframes = 5
+vframes = 4
+
+[node name="Sprite_jump_up" type="Sprite" parent="."]
+visible = false
+texture = ExtResource( 8 )
+hframes = 4
+vframes = 4
+
+[node name="Sprite_ledge_hanging" type="Sprite" parent="."]
+visible = false
+texture = ExtResource( 9 )
+hframes = 5
+vframes = 4
+
+[node name="Combat" type="Node2D" parent="."]
+
+[node name="Sprite_combat_katana_r" type="Sprite" parent="Combat"]
+visible = false
+texture = ExtResource( 11 )
+hframes = 3
+vframes = 3
+
+[node name="Sprite_combat_katana_l" type="Sprite" parent="Combat"]
+visible = false
+texture = ExtResource( 11 )
+flip_h = true
+hframes = 3
+vframes = 3

@@ -1,0 +1,120 @@
+{ "frames": {
+   "ichi_duck_crouch_cut (df) #duck_all 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 80, "h": 96 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 96 },
+    "sourceSize": { "w": 80, "h": 96 },
+    "duration": 150
+   },
+   "ichi_duck_crouch_cut (df) #duck_all 1.aseprite": {
+    "frame": { "x": 80, "y": 0, "w": 80, "h": 96 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 96 },
+    "sourceSize": { "w": 80, "h": 96 },
+    "duration": 150
+   },
+   "ichi_duck_crouch_cut (df) #duck_all 2.aseprite": {
+    "frame": { "x": 160, "y": 0, "w": 80, "h": 96 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 96 },
+    "sourceSize": { "w": 80, "h": 96 },
+    "duration": 1000
+   },
+   "ichi_duck_crouch_cut (df) #duck_all 3.aseprite": {
+    "frame": { "x": 160, "y": 0, "w": 80, "h": 96 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 96 },
+    "sourceSize": { "w": 80, "h": 96 },
+    "duration": 150
+   },
+   "ichi_duck_crouch_cut (df) #duck_all 4.aseprite": {
+    "frame": { "x": 240, "y": 0, "w": 80, "h": 96 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 96 },
+    "sourceSize": { "w": 80, "h": 96 },
+    "duration": 150
+   },
+   "ichi_duck_crouch_cut (df) #duck_all 5.aseprite": {
+    "frame": { "x": 0, "y": 96, "w": 80, "h": 96 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 96 },
+    "sourceSize": { "w": 80, "h": 96 },
+    "duration": 150
+   },
+   "ichi_duck_crouch_cut (df) #duck_all 6.aseprite": {
+    "frame": { "x": 80, "y": 96, "w": 80, "h": 96 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 96 },
+    "sourceSize": { "w": 80, "h": 96 },
+    "duration": 150
+   },
+   "ichi_duck_crouch_cut (df) #duck_all 7.aseprite": {
+    "frame": { "x": 160, "y": 96, "w": 80, "h": 96 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 96 },
+    "sourceSize": { "w": 80, "h": 96 },
+    "duration": 150
+   },
+   "ichi_duck_crouch_cut (df) #duck_all 8.aseprite": {
+    "frame": { "x": 240, "y": 96, "w": 80, "h": 96 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 96 },
+    "sourceSize": { "w": 80, "h": 96 },
+    "duration": 150
+   },
+   "ichi_duck_crouch_cut (df) #duck_all 9.aseprite": {
+    "frame": { "x": 0, "y": 192, "w": 80, "h": 96 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 96 },
+    "sourceSize": { "w": 80, "h": 96 },
+    "duration": 150
+   },
+   "ichi_duck_crouch_cut (df) #duck_all 10.aseprite": {
+    "frame": { "x": 80, "y": 192, "w": 80, "h": 96 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 96 },
+    "sourceSize": { "w": 80, "h": 96 },
+    "duration": 150
+   },
+   "ichi_duck_crouch_cut (df) #duck_all 11.aseprite": {
+    "frame": { "x": 160, "y": 192, "w": 80, "h": 96 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 96 },
+    "sourceSize": { "w": 80, "h": 96 },
+    "duration": 150
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.21-x64",
+  "image": "sheet_ichi_duck.png",
+  "format": "RGBA8888",
+  "size": { "w": 320, "h": 288 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "stand", "from": 0, "to": 0, "direction": "forward" },
+   { "name": "duck_all", "from": 1, "to": 12, "direction": "forward" },
+   { "name": "duck", "from": 1, "to": 3, "direction": "forward" },
+   { "name": "duck_idle", "from": 4, "to": 4, "direction": "forward" },
+   { "name": "duckwalk_start", "from": 5, "to": 5, "direction": "forward" },
+   { "name": "duckwalk_loop", "from": 6, "to": 12, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "df", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}
